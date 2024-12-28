@@ -27,7 +27,7 @@ import os
 # import sys
 
 from termcolor import colored
-from tensorflow.contrib.layers import fully_connected as FC_Net
+from tensorflow.keras.layers import Dense as FC_Net
 from sklearn.metrics import brier_score_loss
 from sklearn.model_selection import train_test_split
 
